@@ -1,3 +1,5 @@
 gunicorn
 whitenoise
 django
+python-dotenv
+sib-api-v3-sdk
