@@ -1,10 +1,12 @@
 # Environnement
 .env
 env/
+.venv/
 
 # Python
 __pycache__/
 *.pyc
+*.log
 
 # Django
 db.sqlite3
