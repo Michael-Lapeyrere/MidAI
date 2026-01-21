@@ -1,31 +1,44 @@
-import sib_api_v3_sdk
-from sib_api_v3_sdk.rest import ApiException
-from pprint import pprint
+import os
+import django
+from pathlib import Path
+from collections import defaultdict
 
-# 1️⃣ Configurer la clé API Brevo
-configuration = sib_api_v3_sdk.Configuration()
-configuration.api_key['api-key'] = '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'
-api_client = sib_api_v3_sdk.ApiClient(configuration)
-email_api = sib_api_v3_sdk.TransactionalEmailsApi(api_client)
+# ⚠️ IMPORTANT : mettre ton settings
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "MidAI.settings")
+django.setup()
 
-# 2️⃣ Créer le mail (envoyé à toi-même)
-send_smtp_email = sib_api_v3_sdk.SendSmtpEmail(
-    to=[{"email": "michaellapeyrere.ml@gmail.com", "name": "Michael"}],  # toi
-    sender={"email": "michaellapeyrere.ml@gmail.com", "name": "Visiteur du site"},  # adresse validée
-    reply_to={"email": "michael.lapeyrere@gmail.com", "name": "Lapeyrère Michaël"},  # adresse du visiteur
-    subject="Nouveau message depuis le site",
-    html_content=f"""
-        <h2>Nouveau message reçu :</h2>
-        <p><b>Nom :</b> "Lapeyrère Michaël"</p>
-        <p><b>Email :</b> "michael.lapeyrere@gmail.com"</p>
-        <p><b>Message :</b> "Je fais un test"</p>
-    """
-)
+from django.conf import settings
+from django.apps import apps
 
-# 3️⃣ Envoyer le mail
-try:
-    response = email_api.send_transac_email(send_smtp_email)
-    pprint(response)
-    print("Mail envoyé dans ta boîte Gmail !")
-except ApiException as e:
-    print("Exception: %s\n" % e)
+# Dictionnaire pour stocker les fichiers par chemin relatif
+files_map = defaultdict(list)
+
+# 1️⃣ Parcours des dossiers dans STATICFILES_DIRS
+for static_dir in settings.STATICFILES_DIRS:
+    static_dir = Path(static_dir)
+    for root, _, files in os.walk(static_dir):
+        for f in files:
+            rel_path = os.path.relpath(os.path.join(root, f), static_dir)
+            files_map[rel_path].append(os.path.join(root, f))
+
+# 2️⃣ Parcours des dossiers static/ des apps
+for app_config in apps.get_app_configs():
+    app_static = Path(app_config.path) / "static"
+    if app_static.exists():
+        for root, _, files in os.walk(app_static):
+            for f in files:
+                rel_path = os.path.relpath(os.path.join(root, f), app_static)
+                files_map[rel_path].append(os.path.join(root, f))
+
+# 3️⃣ Affiche uniquement les doublons
+print("⚠️ Fichiers statiques en conflit (mêmes chemins relatifs) :")
+found = False
+for rel_path, paths in files_map.items():
+    if len(paths) > 1:
+        found = True
+        print(f"\nChemin relatif : {rel_path}")
+        for p in paths:
+            print(f" - {p}")
+
+if not found:
+    print("✅ Aucun doublon trouvé, tout est unique !")

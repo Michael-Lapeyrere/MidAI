@@ -138,16 +138,18 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 BREVO_API_KEY = os.getenv("BREVO_API_KEY")
 CONTACT_EMAIL = "michaellapeyrere.ml@gmail.com"
 
+import sys
+
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
     "handlers": {
-        "console": {"class": "logging.StreamHandler"},
+        "console": {"class": "logging.StreamHandler", "stream": sys.stdout},
     },
     "loggers": {
-        "contact": {
+        "django": {
             "handlers": ["console"],
-            "level": "WARNING",
+            "level": "DEBUG",
         },
     },
 }
