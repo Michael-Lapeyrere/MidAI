@@ -5,5 +5,8 @@ services:
     buildCommand: |
       pip install -r requirements.txt
       python manage.py migrate
-      python manage.py collectstatic
-    startCommand: gunicorn MidAI.wsgi:application
+      # Collecte les statics pour prod, --noinput pour éviter les prompts
+      python manage.py collectstatic --noinput
+    startCommand: |
+      # Gunicorn avec binding sur l'adresse par défaut de Render
+      gunicorn MidAI.wsgi:application --bind 0.0.0.0:$PORT
