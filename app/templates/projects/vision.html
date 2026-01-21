@@ -1,0 +1,151 @@
+{% extends "projects/base_project.html" %}
+{% load i18n %}
+
+{% block project_title %}
+<h1>{% trans "Vision IA" %}</h1>
+{% endblock %}
+
+{% block project_subtitle %}
+<p>{% trans "Reconnaissance visuelle en temps réel via webcam" %}</p>
+{% endblock %}
+
+{% block project_tags %}
+<div class="tags">
+    <span class="tag">AI</span>
+    <span class="tag">Computer Vision</span>
+    <span class="tag">Deep Learning</span>
+</div>
+{% endblock %}
+
+{% block project_content %}
+
+<!-- ===== CONTEXTE ===== -->
+<div class="project-section fade-up">
+    <h2>
+        {% trans "Contexte" %}
+    </h2>
+    <p>
+        {% blocktrans trimmed %}
+        Ce projet est né d'une volonté de comprendre en profondeur le fonctionnement
+        des modèles de vision artificielle, au-delà de l'utilisation de solutions clé en main.
+        L'objectif est de concevoir une intelligence artificielle capable
+        {% endblocktrans %}
+        <span class="tech-highlight">{% trans "d'analyser un flux vidéo en temps réel" %}</span>
+        {% blocktrans trimmed %}
+        tout en gardant un contrôle total sur son architecture et ses performances.
+        {% endblocktrans %}
+    </p>
+</div>
+<div class="project-divider"></div>
+<!-- ===== OBJECTIFS ===== -->
+<div class="project-section fade-up delay-1">
+    <h2>
+        {% trans "Objectifs" %}
+    </h2>
+    <ul>
+        <li>{% trans "Développer un modèle de reconnaissance visuelle personnalisé" %}</li>
+        <li>{% trans "Analyser un flux vidéo en temps réel via webcam" %}</li>
+        <li>{% trans "Optimiser les performances pour des environnements contraints" %}</li>
+        <li>{% trans "Maîtriser l'ensemble du pipeline : données, modèle et inférence" %}</li>
+    </ul>
+</div>
+<div class="project-divider"></div>
+<!-- ===== FONCTIONNEMENT ===== -->
+<div class="project-section fade-up delay-2">
+    <h2>
+        {% trans "Fonctionnement global" %}
+    </h2>
+    <p>
+        {% blocktrans trimmed %}
+        Le système repose sur la capture continue d'un flux vidéo.
+        Chaque image est prétraitée avant d'être analysée par le modèle
+        de vision artificielle, qui effectue une reconnaissance en
+        {% endblocktrans %}
+        <span class="tech-highlight">{% trans "temps réel" %}</span>.
+        
+    </p>
+    <p>
+        {% blocktrans trimmed %}
+        Le pipeline se compose de plusieurs étapes : capture vidéo,
+        prétraitement des images, inférence du modèle et affichage
+        des résultats.
+        {% endblocktrans %}
+    </p>
+</div>
+<div class="project-divider"></div>
+<!-- ===== ARCHITECTURE ===== -->
+<div class="project-section fade-up delay-3">
+    <h2>
+        {% trans "Architecture du modèle" %}
+    </h2>
+    <p>
+        {% blocktrans trimmed %}
+        Le projet repose sur une architecture entièrement personnalisée,
+        conçue pour s'adapter au cas d'usage spécifique de la reconnaissance
+        visuelle en temps réel. Un soin particulier est apporté à l'équilibre
+        entre 
+        {% endblocktrans %}
+        <span class="tech-highlight">{% trans "précision" %}</span> {% trans "et" %} <span class="tech-highlight">{% trans "rapidité" %}</span> {% trans "d'inférence." %}
+    </p>
+</div>
+<div class="project-divider"></div>
+<!-- ===== TECHNOLOGIES ===== -->
+<div class="project-section fade-up delay-4">
+    <h2>
+        {% trans "Technologies utilisées" %}
+    </h2>
+    <ul>
+        <li>Python</li>
+        <li>Computer Vision</li>
+        <li>Deep Learning</li>
+        <li>OpenCV</li>
+        <li>TensorFlow / PyTorch</li>
+    </ul>
+</div>
+<div class="project-divider"></div>
+<!-- ===== DIFFICULTÉS ===== -->
+<div class="project-section fade-up delay-5">
+    <h2>
+        {% trans "Difficultés rencontrées" %}
+    </h2>
+    <ul>
+        <li>{% trans "Gestion des performances en temps réel" %}</li>
+        <li>{% trans "Compromis entre précision et vitesse d'inférence" %}</li>
+        <li>{% trans "Optimisation pour des ressources matérielles limitées" %}</li>
+    </ul>
+</div>
+<div class="project-divider"></div>
+<!-- ===== RÉSULTATS ===== -->
+<div class="project-section fade-up delay-6">
+    <h2>
+        {% trans "Résultats et état actuel" %}
+    </h2>
+    <p>
+        
+        {% trans "Le modèle est capable d'analyser un " %} <span class="tech-highlight">{% trans "flux vidéo en direct" %}</span> 
+        {% blocktrans trimmed %}
+        avec des performances stables. Le projet est en cours d'amélioration afin
+        d'optimiser la précision et la fluidité du traitement.
+        {% endblocktrans %}
+    </p>
+</div>
+<div class="project-divider"></div>
+<!-- ===== PERSPECTIVES ===== -->
+<div class="project-section fade-up delay-7">
+    <h2>
+        {% trans "Perspectives d’évolution" %}
+    </h2>
+    <ul>
+        <li>{% trans "Optimisation avancée du modèle" %}</li>
+        <li>{% trans "Ajout d’une démonstration interactive" %}</li>
+        <li>{% trans "Déploiement sous forme d’API ou d’application web" %}</li>
+    </ul>
+</div>
+<div class="project-divider"></div>
+{% endblock %}
+
+{% block project_status %}
+<div class="coming-soon">
+    🚧 <strong>{% trans "Projet en cours" %}</strong> {% trans "— Démo disponible prochainement" %}
+</div>
+{% endblock %}

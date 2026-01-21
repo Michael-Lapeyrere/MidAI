@@ -1,0 +1,142 @@
+{% extends "projects/base_project.html" %}
+{% load i18n %}
+
+{% block project_title %}
+<h1>{% trans "Newsletter IA" %}</h1>
+{% endblock %}
+
+{% block project_subtitle %}
+<p>{% trans "Veille intelligente et automatisée sur l'IA" %}</p>
+{% endblock %}
+
+{% block project_tags %}
+<div class="tags">
+    <span class="tag">AI</span>
+    <span class="tag">Automation</span>
+    <span class="tag">Data</span>
+    <span class="tag">NLP</span>
+</div>
+{% endblock %}
+
+{% block project_content %}
+
+<!-- ===== CONTEXTE ===== -->
+<div class="project-section fade-up">
+    <h2>
+        {% trans "Contexte" %}
+    </h2>
+    <p>
+        {% blocktrans trimmed %}
+        L'évolution rapide du domaine de l'intelligence artificielle rend la veille
+        technologique de plus en plus complexe. Les informations sont 
+        {% endblocktrans %}
+        <span class="tech-highlight">{% trans "nombreuses" %}</span>,
+        <span class="tech-highlight">{% trans "dispersées" %}</span>{% trans " et souvent" %} <span class="tech-highlight">{% trans "redondantes" %}</span>.
+        
+    </p>
+    <p>
+        {% trans "Ce projet vise à automatiser " %} <span class="tech-highlight">{% trans "la collecte et la synthèse" %}</span> 
+        {% blocktrans trimmed %}
+        d'informations pertinentes afin de proposer une veille claire, structurée et à forte valeur ajoutée.
+        {% endblocktrans %}
+    </p>
+</div>
+<div class="project-divider"></div>
+
+<!-- ===== OBJECTIFS ===== -->
+<div class="project-section fade-up delay-1">
+    <h2>
+        {% trans "Objectifs" %}
+    </h2>
+    <ul>
+        <li>{% trans "Automatiser la collecte d’informations liées à l’IA" %}</li>
+        <li>{% trans "Filtrer les contenus à faible valeur ajoutée" %}</li>
+        <li>{% trans "Synthétiser l’information de manière claire et concise" %}</li>
+        <li>{% trans "Proposer une newsletter adaptée aux profils techniques et non techniques" %}</li>
+    </ul>
+</div>
+<div class="project-divider"></div>
+
+<!-- ===== FONCTIONNEMENT ===== -->
+<div class="project-section fade-up delay-2">
+    <h2>
+        {% trans "Fonctionnement global" %}
+    </h2>
+    <p>
+        {% trans "L'IA analysera automatiquement différentes sources d'information " %}
+        <span class="tech-highlight">{% trans "(articles, blogs, publications techniques, actualités spécialisées)" %}</span>
+        {% trans " afin d'en extraire les éléments les plus pertinents." %}
+    </p>
+    <p>
+        {% trans "Les contenus seront ensuite " %}
+        <span class="tech-highlight">{% trans "classés" %}</span>, 
+        <span class="tech-highlight">{% trans "résumés" %}</span> {% trans "et " %}
+        <span class="tech-highlight">{% trans "structurés" %}</span> 
+        {% trans "pour constituer une newsletter cohérente et facilement lisible." %}
+    </p>
+</div>
+<div class="project-divider"></div>
+
+<!-- ===== ARCHITECTURE ===== -->
+<div class="project-section fade-up delay-3">
+    <h2>
+        {% trans "Architecture envisagée" %}
+    </h2>
+    <ul>
+        <li>{% trans "Collecte automatisée de sources (scraping / APIs)" %}</li>
+        <li>{% trans "Traitement du langage naturel (NLP)" %}</li>
+        <li>{% trans "Filtrage et scoring des contenus" %}</li>
+        <li>{% trans "Génération de résumés automatisés" %}</li>
+        <li>{% trans "Diffusion via email ou interface web" %}</li>
+    </ul>
+</div>
+<div class="project-divider"></div>
+
+<!-- ===== TECHNOLOGIES ===== -->
+<div class="project-section fade-up delay-4">
+    <h2>
+        {% trans "Technologies envisagées" %}
+    </h2>
+    <ul>
+        <li>Python</li>
+        <li>NLP / LLM</li>
+        <li>Automation</li>
+        <li>APIs & Web scraping</li>
+        <li>Django / Backend</li>
+    </ul>
+</div>
+<div class="project-divider"></div>
+
+<!-- ===== ENJEUX ===== -->
+<div class="project-section fade-up delay-5">
+    <h2>
+        {% trans "Enjeux et difficultés" %}
+    </h2>
+    <ul>
+        <li>{% trans "Limiter le bruit informationnel" %}</li>
+        <li>{% trans "Garantir la qualité et la pertinence des contenus" %}</li>
+        <li>{% trans "Adapter le niveau de technicité selon le public cible" %}</li>
+    </ul>
+</div>
+<div class="project-divider"></div>
+
+<!-- ===== PERSPECTIVES ===== -->
+<div class="project-section fade-up delay-6">
+    <h2>
+        {% trans "Perspectives d’évolution" %}
+    </h2>
+    <ul>
+        <li>{% trans "Personnalisation des newsletters par utilisateur" %}</li>
+        <li>{% trans "Ajout de recommandations intelligentes" %}</li>
+        <li>{% trans "Intégration d’une plateforme web dédiée" %}</li>
+    </ul>
+</div>
+<div class="project-divider"></div>
+
+{% endblock %}
+
+{% block project_status %}
+<div class="coming-soon">
+    🕒 <strong>{% trans "À venir prochainement" %}</strong>
+</div>
+{% endblock %}

@@ -1,0 +1,122 @@
+{% extends "projects/base_project.html" %}
+{% load i18n %}
+
+{% block project_title %}
+<h1>{% trans "MidAi" %}</h1>
+{% endblock %}
+
+{% block project_subtitle %}
+<p>{% trans "Site internet portfolio orienté IA & Data" %}</p>
+{% endblock %}
+
+{% block project_tags %}
+<div class="tags">
+    <span class="tag">AI</span>
+    <span class="tag">Data</span>
+    <span class="tag">Django</span>
+    <span class="tag">Web</span>
+</div>
+{% endblock %}
+
+{% block project_content %}
+
+<!-- ===== CONTEXTE ===== -->
+<div class="project-section fade-up">
+    <h2>
+        {% trans "Contexte" %}
+    </h2>
+    <p>
+        
+        {% trans "MidAi est né du besoin de disposer d'un espace " %}
+        <span class="tech-highlight">{% trans "clair et structuré" %}</span>
+        {% blocktrans trimmed %}
+        pour présenter mes projets, mes compétences et ma vision de
+        l'intelligence artificielle et de la data.
+        {% endblocktrans %}
+    </p>
+    <p>
+        {% trans "Ce site ne se limite pas à un simple portfolio, mais constitue une " %}
+        <span class="tech-highlight">{% trans "base évolutive" %}</span> 
+        {% trans "permettant de démontrer concrètement des" %}
+        <span class="tech-highlight">{% trans "solutions techniques" %}</span> 
+        {% trans "et des projets IA." %}
+    </p>
+</div>
+<div class="project-divider"></div>
+
+<!-- ===== OBJECTIFS ===== -->
+<div class="project-section fade-up delay-1">
+    <h2>
+        {% trans "Objectifs" %}
+    </h2>
+    <ul>
+        <li>{% trans "Présenter mes projets IA et Data de manière structurée" %}</li>
+        <li>{% trans "Mettre en avant mes compétences techniques et méthodologiques" %}</li>
+        <li>{% trans "Servir de support professionnel pour des missions freelance ou des opportunités" %}</li>
+        <li>{% trans "Proposer à terme des démonstrations IA interactives" %}</li>
+    </ul>
+</div>
+<div class="project-divider"></div>
+
+<!-- ===== APPROCHE ===== -->
+<div class="project-section fade-up delay-2">
+    <h2>
+        {% trans "Approche" %}
+    </h2>
+    <p>
+        {% trans "Le site est conçu avec une approche orientée " %}
+        <span class="tech-highlight">{% trans "qualité" %}</span>, 
+        <span class="tech-highlight">{% trans "lisibilité" %}</span>
+        {% trans "et " %}
+        <span class="tech-highlight">{% trans "compréhension" %}</span> 
+        {% blocktrans trimmed %}
+        des solutions proposées. Chaque projet est documenté afin d'expliquer non seulement le résultat, mais
+        également la réflexion technique sous-jacente.
+        {% endblocktrans %}
+    </p>
+    <p>
+        {% blocktrans trimmed %}
+        L'accent est mis sur la compréhension des modèles, leurs
+        performances, leurs limites et leur intégration dans des
+        {% endblocktrans %}
+        <span class="tech-highlight">{% trans "environnements réels" %}</span>.
+        
+    </p>
+</div>
+<div class="project-divider"></div>
+
+<!-- ===== ARCHITECTURE ===== -->
+<div class="project-section fade-up delay-3">
+    <h2>
+        {% trans "Architecture du site" %}
+    </h2>
+    <ul>
+        <li>{% trans "Backend Django pour la robustesse et l'évolutivité" %}</li>
+        <li>{% trans "Frontend simple et lisible (HTML / CSS / JS)" %}</li>
+        <li>{% trans "Gestion multilingue (FR / EN)" %}</li>
+        <li>{% trans "Structure modulaire facilitant l'ajout de projets" %}</li>
+    </ul>
+</div>
+<div class="project-divider"></div>
+
+<!-- ===== PERSPECTIVES ===== -->
+<div class="project-section fade-up delay-4">
+    <h2>
+        {% trans "Perspectives d'évolution" %}
+    </h2>
+    <ul>
+        <li>{% trans "Intégration de démonstrations IA en temps réel" %}</li>
+        <li>{% trans "Ajout de projets expérimentaux et de prototypes" %}</li>
+        <li>{% trans "Publication de contenus pédagogiques IA / Data" %}</li>
+        <li>{% trans "Évolution vers une plateforme plus interactive" %}</li>
+    </ul>
+</div>
+<div class="project-divider"></div>
+
+{% endblock %}
+
+{% block project_status %}
+<div class="coming-soon">
+    🚧 <strong>{% trans "En cours de développement" %}</strong>
+</div>
+{% endblock %}

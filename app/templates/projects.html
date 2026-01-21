@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+
+<!-- ===== PAGE HEADER ===== -->
+<section class="page-header">
+    <h1>{% trans "Projets" %}</h1>
+    <p>
+        {% trans "Une sélection de projets personnels mêlant intelligence artificielle, data et développement web, avec une approche orientée qualité et impact." %}
+    </p>
+</section>
+
+<!-- ===== PROJECTS LIST ===== -->
+<section class="projects">
+
+    <!-- ===== PROJECT 1 : IA VISION ===== -->
+    <a href="{% url 'project_vision' %}" class="project-link">
+        <div class="project-card fade-up">
+            <h2>{% trans "Vision IA en temps réel" %}</h2>
+
+            <p>
+                {% trans "Développement d'une intelligence artificielle de reconnaissance visuelle capable d'analyser un flux vidéo en temps réel via webcam." %}
+            </p>
+
+            <p>
+                {% trans "Le projet repose sur une architecture entièrement personnalisée, avec un fort accent mis sur la compréhension du modèle, ses performances et sa capacité à fonctionner sur des environnements contraints." %}
+            </p>
+
+            <p><strong>{% trans "Statut :" %}</strong> {% trans "A venir prochainement" %}</p>
+
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">Python</span>
+        </div>
+    </a>
+
+    <!-- ===== PROJECT 2 : NEWSLETTER IA ===== -->
+    <a href="{% url 'project_newsletter' %}" class="project-link">
+        <div class="project-card fade-up">
+            <h2>{% trans "Newsletter IA intelligente" %}</h2>
+
+            <p>
+                {% trans "Conception d'une intelligence artificielle capable d'agréger, filtrer et synthétiser automatiquement des informations liées à l'intelligence artificielle et à la data." %}
+            </p>
+
+            <p>
+                {% trans "L'objectif est de proposer une newsletter claire, pertinente et à forte valeur ajoutée, adaptée aux profils techniques comme non techniques." %}
+            </p>
+
+            <p><strong>{% trans "Statut :" %}</strong> {% trans "A venir prochainement" %}</p>
+
+            <span class="tag">{% trans "IA Générative" %}</span>
+            <span class="tag">{% trans "NLP" %}</span>
+            <span class="tag">{% trans "Automation" %}</span>
+        </div>
+    </a>
+
+    <!-- ===== PROJECT 3 : WEBSITE ===== -->
+    <a href="{% url 'project_midai' %}" class="project-link">
+        <div class="project-card fade-up">
+            <h2>{% trans "Site internet MidAi" %}</h2>
+
+            <p>
+                {% trans "Conception et développement de ce site vitrine afin de présenter mes projets, mes compétences et mes services en intelligence artificielle et data." %}
+            </p>
+
+            <p>
+                {% trans "Le site est pensé comme une base évolutive permettant l'intégration future de démonstrations IA interactives." %}
+            </p>
+
+            <p><strong>{% trans "Statut :" %}</strong> {% trans "En cours" %}</p>
+
+            <span class="tag">Django</span>
+            <span class="tag">HTML / CSS</span>
+            <span class="tag">Web Design</span>
+        </div>
+    </a>
+</section>
+
+{% endblock %}

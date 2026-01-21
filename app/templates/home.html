@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+<section class="hero fade-up">
+
+    <h1 class="delay-1">
+        {% trans "Intelligence Artificielle & Data sur mesure" %}
+    </h1>
+    <p class="delay-2">
+        {% blocktrans %}  
+            Ce site internet est pour moi un moyen pratique de communiquer avec vous mes différents projets, 
+            les services que je peux vous proposer sous contrat de Freelance mais aussi un portfolio pour apporter une touche plus graphique par rapport à un CV basique. 
+        {% endblocktrans %}
+    </p>
+</section>
+
+<section class="service fade-up">
+    <div class="text">
+        <h2 class="fade-up delay-1">{% blocktrans %}  Avoir des données propres {% endblocktrans %}</h2>
+        <p class="intro">
+            {% blocktrans %}  La qualité des données est primordiale pour garantir la fiabilité des analyses et des modèles prédictifs. 
+            Je vous aide à structurer et nettoyer vos données afin d'optimiser leur utilisation : {% endblocktrans %}
+        </p>
+        <ul>
+            <li>{% blocktrans %}  Analyse de bases de données {% endblocktrans %}</li>
+            <li>{% blocktrans %}  Bonnes pratiques SQL / NoSQL {% endblocktrans %}</li>
+            <li>{% blocktrans %}  Consulting data ingénieur {% endblocktrans %}</li>
+        </ul>
+    </div>
+    <div>
+        <img src="/static/img/free_data.png" alt="Clean Data Illustration" class="image">
+    </div>
+</section>
+
+<section class="service reverse fade-up">
+    <div class="text">
+        <h2 class="fade-up delay-1">{% blocktrans %}  Analyser vos données {% endblocktrans %}</h2>
+        <p class="intro">
+            {% blocktrans %}  Une analyse approfondie de vos données permet de révéler des insights précieux pour votre entreprise. 
+            Je vous accompagne dans l'exploration et la visualisation de vos données pour une meilleure prise de décision : {% endblocktrans %}
+        </p>
+        <ul>
+            <li>{% blocktrans %}  Python & statistiques {% endblocktrans %}</li>
+            <li>{% blocktrans %}  Power BI dashboards {% endblocktrans %}</li>
+            <li>{% blocktrans %}  Consulting data analyste {% endblocktrans %}</li>
+        </ul>
+    </div>
+    <div>
+        <img src="/static/img/free_analyze.png" alt="Data Analysis Illustration" class="image">
+    </div>
+</section>
+
+<section class="service fade-up">
+    <div class="text">
+        <h2 class="fade-up delay-1">{% blocktrans %}  Prédire vos données {% endblocktrans %}</h2>
+        <p class="intro">
+            {% blocktrans %}  La prédiction basée sur les données permet d'anticiper les tendances et d'optimiser les performances. 
+            Je développe des modèles prédictifs adaptés à vos besoins spécifiques pour maximiser votre avantage concurrentiel : {% endblocktrans %}
+        </p>
+        <ul>
+            <li>{% blocktrans %}  Réseaux de neurones {% endblocktrans %}</li>
+            <li>{% blocktrans %}  Modèles IA personnalisés {% endblocktrans %}</li>
+            <li>{% blocktrans %}  Forecast & Clustering {% endblocktrans %}</li>
+            <li>{% blocktrans %}  Consulting data scientist {% endblocktrans %}</li>
+        </ul>
+    </div>
+    <div>
+        <img src="/static/img/free_ia.png" alt="Data Prediction Illustration" class="image">
+    </div>
+</section>
+{% endblock %}

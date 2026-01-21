@@ -1,0 +1,178 @@
+{% extends "base.html" %}
+{% load i18n static %}
+
+{% block content %}
+
+<section class="about-header fade-up">
+    <div class="about-photo">
+        <img src="{% static 'img/Photo_moi.jpg' %}" alt="{% trans 'Photo de profil' %}">
+    </div>
+
+    <div class="about-intro">
+        <h1>Michaël Lapeyrère</h1>
+        <h2>{% trans "Ingénieur IA & Data / Freelance" %}</h2>
+
+        <p>
+            {% blocktrans trimmed %}
+            Ingénieur spécialisé en intelligence artificielle et data,
+            passionné par la conception de modèles sur mesure et
+            la compréhension approfondie des systèmes que je développe.
+            {% endblocktrans %}
+        </p>
+    </div>
+</section>
+
+<div class="about-divider"></div>
+
+<!-- ===== COMPÉTENCES ===== -->
+<section class="about-section fade-up delay-3">
+    <h2>{% trans "Compétences clés" %}</h2>
+    <ul class="skills-list">
+        <li><span class="skill-title">{% trans "Intelligence Artificielle" %} :</span> {% trans "Machine Learning, Deep Learning, Vision par ordinateur" %}</li>
+        <li><span class="skill-title">{% trans "Data" %} :</span> {% trans "SQL, Power BI, ETL, analyse avancée" %}</li>
+        <li><span class="skill-title">{% trans "Développement" %} :</span> {% trans "Python, automatisation" %}</li>
+        <li><span class="skill-title">{% trans "Gestion de projet" %} :</span> {% trans "Pilotage technique, accompagnement client, gestion d'une équipe" %}</li>
+        <li><span class="skill-title">{% trans "Soft skills" %} :</span> {% trans "Vulgarisation technique, collaboration, autonomie" %}</li>
+    </ul>
+</section>
+
+
+<div class="about-divider"></div>
+
+<!-- ===== EXPÉRIENCES ===== -->
+<section class="about-section fade-up delay-2">
+    <h2>{% trans "Expériences" %}</h2>
+
+    <!-- ===== FREELANCE ===== -->
+    <div class="about-item highlight">
+        <div class="about-meta">
+            <span class="about-date">{% trans "2026 - Aujourd'hui" %}</span>
+            <div class="about-techno">
+                <span class="tech-badge">{% trans "IA" %}</span>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Data</span>
+                <span class="tech-badge">Power BI</span>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <h3>{% trans "Freelance - Intelligence Artificielle & Data" %}</h3>
+            <p>
+                {% blocktrans trimmed %}
+                Conception et développement de solutions sur mesure en intelligence
+                artificielle, data et automatisation. Accompagnement technique de bout
+                en bout, de la réflexion stratégique à l'implémentation des modèles.
+                Accompagnement et conception de dashboards Power BI pour une
+                visualisation et une compréhension optimale des données.
+                {% endblocktrans %}
+            </p>
+        </div>
+    </div>
+
+    <div class="about-item">
+        <div class="about-meta">
+            <span class="about-date">2024 - 2025</span>
+            <div class="about-techno">
+                <span class="tech-badge">Power BI</span>
+                <span class="tech-badge">SQL</span>
+                <span class="tech-badge">Python</span>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <h3>{% trans "Data Scientist | Alternance" %}</h3>
+            <p>
+                {% blocktrans trimmed %}
+                Réorganisation et structuration des bases de données,
+                développement d'analyses avancées et mise en place de solutions
+                orientées business intelligence pour faciliter la prise de décision.
+                {% endblocktrans %}
+            </p>
+        </div>
+    </div>
+
+    <div class="about-item">
+        <div class="about-meta">
+            <span class="about-date">2022 - 2024</span>
+            <div class="about-techno">
+                <span class="tech-badge">BI</span>
+                <span class="tech-badge">Data</span>
+                <span class="tech-badge">{% trans "Gestion de projet" %}</span>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <h3>{% trans "Responsable technique | Alternance" %}</h3>
+            <p>
+                {% blocktrans trimmed %}
+                Pilotage technique de projets data et BI, participation à la conception
+                d'une solution décisionnelle packagée et encadrement d'une équipe
+                de développement.
+                {% endblocktrans %}
+            </p>
+        </div>
+    </div>
+</section>
+
+<div class="about-divider"></div>
+
+<!-- ===== FORMATIONS ===== -->
+<section class="about-section fade-up delay-1">
+    <h2>{% trans "Formations" %}</h2>
+
+    <div class="about-item">
+        <div class="about-meta">
+            <span class="about-date">2023 - 2025</span>
+            <span class="about-level">{% trans "Master" %}</span>
+        </div>
+
+        <div class="about-content">
+            <h3>{% trans "IA & Big Data | Alternance" %}</h3>
+            <p>
+                {% blocktrans trimmed %}
+                Spécialisation en intelligence artificielle et Big Data avec un fort accent
+                sur le machine learning, le deep learning et les systèmes décisionnels.
+                Réalisation de projets concrets orientés performance et mise en production
+                de solutions IA.
+                {% endblocktrans %}
+            </p>
+        </div>
+    </div>
+
+    <div class="about-item">
+        <div class="about-meta">
+            <span class="about-date">2022 - 2023</span>
+            <span class="about-level">{% trans "Licence" %}</span>
+        </div>
+
+        <div class="about-content">
+            <h3>{% trans "DevOps - Spécialité IA | Alternance" %}</h3>
+            <p>
+                {% blocktrans trimmed %}
+                Formation orientée développement informatique, automatisation et
+                déploiement d'applications, avec une spécialisation sur l'intégration
+                de solutions IA dans des environnements applicatifs et cloud.
+                {% endblocktrans %}
+            </p>
+        </div>
+    </div>
+
+    <div class="about-item">
+        <div class="about-meta">
+            <span class="about-date">2020 - 2022</span>
+            <span class="about-level">{% trans "Diplôme Universitaire" %}</span>
+        </div>
+
+        <div class="about-content">
+            <h3>{% trans "Génie Électrique et Informatique Industrielle - Robotique" %}</h3>
+            <p>
+                {% blocktrans trimmed %}
+                Formation technique en électronique, informatique industrielle et robotique via un double diplôme.
+                Réalisation de projets mêlant programmation, systèmes embarqués,
+                modélisation et premières applications en intelligence artificielle.
+                {% endblocktrans %}
+            </p>
+        </div>
+    </div>
+</section>
+{% endblock %}

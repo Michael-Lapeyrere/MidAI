@@ -1,0 +1,2013 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-14 20:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\MidAI\settings.py:151
+msgid "French"
+msgstr "French"
+
+#: .\MidAI\settings.py:152
+msgid "English"
+msgstr "English"
+
+#: .\app\forms.py:7
+msgid "Nom / Entreprise"
+msgstr "Name / Company"
+
+#: .\app\forms.py:9
+msgid "Votre nom / entreprise"
+msgstr "Your name / company"
+
+#: .\app\forms.py:15
+msgid "Email"
+msgstr "Email"
+
+#: .\app\forms.py:17
+msgid "Votre email"
+msgstr "Your email"
+
+#: .\app\forms.py:25
+msgid "Décrivez votre projet ou votre besoin"
+msgstr "Describe your project or your need"
+
+#: .\app\templates\base.html:19
+msgid "Accueil"
+msgstr " Home "
+
+#: .\app\templates\base.html:20
+msgid " Projets "
+msgstr " Projects "
+
+#: .\app\templates\contact.html:6
+msgid "Me contacter"
+msgstr "Contact me"
+
+#: .\app\templates\contact.html:8
+msgid "Une idée de projet, une mission freelance ou simplement une question ?"
+msgstr "A project idea, a freelance mission, or just a question?"
+
+#: .\app\templates\contact.html:15
+msgid "Discutons de votre projet"
+msgstr "Let's discuss about your project"
+
+#: .\app\templates\contact.html:17
+msgid "Je suis ouvert aux missions en"
+msgstr "I am open to missions in"
+
+#: .\app\templates\contact.html:17
+msgid "IA, Data, automatisation"
+msgstr "AI, Data, Automation"
+
+#: .\app\templates\contact.html:18
+msgid "et à la création de solutions sur mesure."
+msgstr "and creating custom solutions."
+
+#: .\app\templates\contact.html:23
+msgid "Me contacter sur LinkedIn"
+msgstr "Contact me on LinkedIn"
+
+#: .\app\templates\contact.html:26
+msgid "Voir mon profil Malt"
+msgstr "See my Malt profile"
+
+#: .\app\templates\contact.html:29
+msgid "Voir mon profil Github"
+msgstr "See my Github profile"
+
+#: .\app\templates\contact.html:35
+msgid "Envoyez-moi un message"
+msgstr "Send me a message"
+
+#: .\app\templates\contact.html:39
+msgid "✅ Message envoyé avec succès."
+msgstr "✅ Message sent successfully."
+
+#: .\app\templates\contact.html:40
+msgid "Je vous répondrai rapidement."
+msgstr "I will reply shortly."
+
+#: .\app\templates\contact.html:46
+msgid "❌ Une erreur est survenue. Envoi non effectué."
+msgstr "❌ An error occurred. Message not sent."
+
+#: .\app\templates\contact.html:80
+msgid "Envoyer le message"
+msgstr "Send message"
+
+#: .\app\templates\contact.html:84
+msgid "Annuler"
+msgstr "Cancel"
+
+#: .\app\templates\home.html:6
+msgid "Intelligence Artificielle & Data sur mesure"
+msgstr "Custom Artificial Intelligence & Data Solutions"
+
+#: .\app\templates\home.html:11
+msgid ""
+"  \n"
+"            Ce site internet est pour moi un moyen pratique de communiquer "
+"avec vous mes différents projets, \n"
+"            les services que je peux vous proposer sous contrat de Freelance "
+"mais aussi un portfolio pour apporter une touche plus graphique par rapport "
+"à un CV basique. \n"
+"        "
+msgstr ""
+"  \n"
+"            This website is a convenient way for me to share my projects with "
+"you, the services I can offer under a Freelance contract, and also a "
+"portfolio to provide a more visual touch compared to a basic resume. \n"
+"        "
+
+#: .\app\templates\home.html:20
+msgid "  Avoir des données propres "
+msgstr "  Have clean data "
+
+#: .\app\templates\home.html:22
+msgid ""
+"  La qualité des données est primordiale pour garantir la fiabilité des "
+"analyses et des modèles prédictifs. \n"
+"            Je vous aide à structurer et nettoyer vos données afin "
+"d'optimiser leur utilisation : "
+msgstr ""
+"  Data quality is crucial to ensure the reliability of analyses and "
+"predictive models. \n"
+"            I help you structure and clean your data to optimize its usage: "
+
+#: .\app\templates\home.html:26
+msgid "  Analyse de bases de données "
+msgstr "  Database analysis "
+
+#: .\app\templates\home.html:27
+msgid "  Bonnes pratiques SQL / NoSQL "
+msgstr "  SQL / NoSQL best practices "
+
+#: .\app\templates\home.html:28
+msgid "  Consulting data ingénieur "
+msgstr "  Data engineering consulting "
+
+#: .\app\templates\home.html:38
+msgid "  Analyser vos données "
+msgstr "  Analyze your data "
+
+#: .\app\templates\home.html:40
+msgid ""
+"  Une analyse approfondie de vos données permet de révéler des insights "
+"précieux pour votre entreprise. \n"
+"            Je vous accompagne dans l'exploration et la visualisation de vos "
+"données pour une meilleure prise de décision : "
+msgstr ""
+"  A deep analysis of your data can reveal valuable insights for your "
+"business. \n"
+"            I assist you in exploring and visualizing your data for better "
+"decision-making: "
+
+#: .\app\templates\home.html:44
+msgid "  Python & statistiques "
+msgstr "  Python & Statistics "
+
+#: .\app\templates\home.html:45
+msgid "  Power BI dashboards "
+msgstr "  Power BI Dashboards "
+
+#: .\app\templates\home.html:46
+msgid "  Consulting data analyste "
+msgstr "  Data analyst consulting "
+
+#: .\app\templates\home.html:56
+msgid "  Prédire vos données "
+msgstr "  Predict your data "
+
+#: .\app\templates\home.html:58
+msgid ""
+"  La prédiction basée sur les données permet d'anticiper les tendances et "
+"d'optimiser les performances. \n"
+"            Je développe des modèles prédictifs adaptés à vos besoins "
+"spécifiques pour maximiser votre avantage concurrentiel : "
+msgstr ""
+"  Data-driven prediction allows anticipating trends and optimizing "
+"performance. \n"
+"            I develop predictive models tailored to your specific needs to "
+"maximize your competitive advantage: "
+
+#: .\app\templates\home.html:62
+msgid "  Réseaux de neurones "
+msgstr "  Neural networks "
+
+#: .\app\templates\home.html:63
+msgid "  Modèles IA personnalisés "
+msgstr "  Custom AI models "
+
+#: .\app\templates\home.html:64
+msgid "  Forecast & Clustering "
+msgstr "  Forecasting & Clustering "
+
+#: .\app\templates\home.html:65
+msgid "  Consulting data scientist "
+msgstr "  Data scientist consulting "
+
+#: .\app\templates\projects.html:33 .\app\templates\projects.html:57
+#: .\app\templates\projects.html:81
+msgid "Statut :"
+msgstr "Status:"
+
+#: .\app\templates\projects.html:59
+msgid "IA Générative"
+msgstr "Generative AI"
+
+#: .\app\templates\projects.html:68
+msgid "Site internet MidAi"
+msgstr "MidAi Website"
+
+#: .\app\templates\projects\base_project.html:22
+msgid "← Retour aux projets"
+msgstr "← Back to projects"
+
+#: .\app\templates\projects\midai.html:4
+msgid "Site Internet Portfolio"
+msgstr "Portfolio Website"
+
+#: .\app\templates\projects\midai.html:8
+msgid "Site personnel orienté IA & Data"
+msgstr "Personal site focused on AI & Data"
+
+#: .\app\templates\projects\midai.html:21
+#: .\app\templates\projects\vision.html:21
+msgid "Objectif"
+msgstr "Objective"
+
+#: .\app\templates\projects\midai.html:31
+msgid "En cours de développement"
+msgstr "Under development"
+
+#: .\app\templates\projects\newsletter.html:8
+msgid "Veille intelligente et automatisée sur l'IA"
+msgstr "Smart and automated AI monitoring"
+
+#: .\app\templates\projects\newsletter.html:31
+msgid "À venir prochainement"
+msgstr "Coming soon"
+
+#: .\app\templates\projects\vision.html:4
+msgid "Vision IA"
+msgstr "AI Vision"
+
+#: .\app\templates\projects\vision.html:8
+msgid "Reconnaissance visuelle en temps réel via webcam"
+msgstr "Real-time visual recognition through a webcam"
+
+msgid "Contexte"
+msgstr "Context"
+
+msgid "Objectifs"
+msgstr "Objectives"
+
+msgid "Ce projet est né d'une volonté de comprendre en profondeur le fonctionnement des modèles de vision artificielle, au-delà de l'utilisation de solutions clé en main. L'objectif est de concevoir une intelligence artificielle capable"
+msgstr "This project was born from a desire to deeply understand how computer vision models work, beyond using turnkey solutions. The goal is to design an artificial intelligence capable"
+
+msgid "d'analyser un flux vidéo en temps réel"
+msgstr "of analyzing a real-time video stream"
+
+msgid "Qui suis-je ?"
+msgstr "About me"
+
+msgid "Photo de profil"
+msgstr "Profile picture"
+
+msgid "Ingénieur IA & Data / Freelance"
+msgstr "AI & Data Engineer / Freelance"
+
+msgid "Ingénieur spécialisé en intelligence artificielle et data, passionné par la conception de modèles sur mesure et la compréhension approfondie des systèmes que je développe."
+msgstr "Engineer specialized in artificial intelligence and data, passionate about designing custom models and deeply understanding the systems I develop."
+
+msgid "Compétences clés"
+msgstr "Key Skills"
+
+msgid "BI · Gestion de projet · Data"
+msgstr "BI · Project Management · Data"
+
+msgid "Intelligence Artificielle"
+msgstr "Artificial Intelligence"
+
+msgid "Machine Learning, Deep Learning, Vision par ordinateur"
+msgstr "Machine Learning, Deep Learning, Computer Vision"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "SQL, Power BI, ETL, analyse avancée"
+msgstr "SQL, Power BI, ETL, advanced analysis"
+
+msgid "Développement"
+msgstr "Development"
+
+msgid "Python, automatisation"
+msgstr "Python, automation"
+
+msgid "Gestion de projet"
+msgstr "Project Management"
+
+msgid "Pilotage technique, accompagnement client, gestion d'une équipe"
+msgstr "Technical supervision, client support, team management"
+
+msgid "Soft skills"
+msgstr "Soft Skills"
+
+msgid "Vulgarisation technique, collaboration, autonomie"
+msgstr "Technical communication, collaboration, autonomy"
+
+msgid "Formations"
+msgstr "Education"
+
+msgid "Master"
+msgstr "Master's Degree"
+
+msgid "IA & Big Data | Alternance"
+msgstr "AI & Big Data | Work-Study"
+
+msgid "Spécialisation en intelligence artificielle et Big Data avec un fort accent sur le machine learning, le deep learning et les systèmes décisionnels. Réalisation de projets concrets orientés performance et mise en production de solutions IA."
+msgstr "Specialization in artificial intelligence and Big Data with a strong focus on machine learning, deep learning, and decision-making systems. Completion of concrete projects focused on performance and deployment of AI solutions."
+
+msgid "Licence"
+msgstr "Bachelor's Degree"
+
+msgid "DevOps - Spécialité IA | Alternance"
+msgstr "DevOps - AI Specialization | Work-Study"
+
+msgid "Formation orientée développement informatique, automatisation et déploiement d'applications, avec une spécialisation sur l'intégration de solutions IA dans des environnements applicatifs et cloud."
+msgstr "Training focused on software development, automation, and application deployment, with specialization in integrating AI solutions into application and cloud environments."
+
+msgid "Diplôme Universitaire"
+msgstr "University Diploma"
+
+msgid "Génie Électrique et Informatique Industrielle - Robotique"
+msgstr "Electrical Engineering and Industrial Computer Science - Robotics"
+
+msgid "Formation technique en électronique, informatique industrielle et robotique via un double diplôme. Réalisation de projets mêlant programmation, systèmes embarqués, modélisation et premières applications en intelligence artificielle."
+msgstr "Technical training in electronics, industrial computing, and robotics via a double degree. Completion of projects combining programming, embedded systems, modeling, and initial AI applications."
+
+msgid "Expériences"
+msgstr "Experience"
+
+msgid "2026 - Aujourd'hui"
+msgstr "2026 - Present"
+
+msgid "IA · Python · Data · Power BI"
+msgstr "AI · Python · Data · Power BI"
+
+msgid "Freelance - Intelligence Artificielle & Data"
+msgstr "Freelance - Artificial Intelligence & Data"
+
+msgid "Conception et développement de solutions sur mesure en intelligence artificielle, data et automatisation. Accompagnement technique de bout en bout, de la réflexion stratégique à l'implémentation des modèles. Accompagnement et conception de dashboards Power BI pour une visualisation et une compréhension optimale des données."
+msgstr "Design and development of custom solutions in AI, data, and automation. End-to-end technical support, from strategic planning to model implementation. Development of Power BI dashboards for optimal data visualization and understanding."
+
+msgid "2024 - 2025"
+msgstr "2024 - 2025"
+
+msgid "Power BI · SQL · Python"
+msgstr "Power BI · SQL · Python"
+
+msgid "IA"
+msgstr "AI"
+
+msgid "Data Scientist | Alternance"
+msgstr "Data Scientist | Work-Study"
+
+msgid "Réorganisation et structuration des bases de données, développement d'analyses avancées et mise en place de solutions orientées business intelligence pour faciliter la prise de décision."
+msgstr "Reorganization and structuring of databases, development of advanced analyses, and implementation of business intelligence solutions to facilitate decision-making."
+
+msgid "2022 - 2024"
+msgstr "2022 - 2024"
+
+msgid "Responsable technique | Alternance"
+msgstr "Technical Lead | Work-Study"
+
+msgid "Pilotage technique de projets data et BI, participation à la conception d'une solution décisionnelle packagée et encadrement d'une équipe de développement."
+msgstr "Technical management of data and BI projects, participation in designing a packaged decision-making solution, and supervision of a development team."
+
+msgid "tout en gardant un contrôle total sur son architecture et ses performances."
+msgstr "while maintaining full control over its architecture and performance."
+
+msgid "Développer un modèle de reconnaissance visuelle personnalisé"
+msgstr "Develop a custom visual recognition model"
+
+msgid "Le système repose sur la capture continue d'un flux vidéo. Chaque image est prétraitée avant d'être analysée par le modèle de vision artificielle, qui effectue une reconnaissance en"
+msgstr "The system relies on the continuous capture of a video stream. Each frame is preprocessed before being analyzed by the computer vision model, which performs recognition in"
+
+msgid "Le projet repose sur une architecture entièrement personnalisée, conçue pour s'adapter au cas d'usage spécifique de la reconnaissance visuelle en temps réel. Un soin particulier est apporté à l'équilibre entre"
+msgstr "The project is based on a fully customized architecture, designed to fit the specific use case of real-time visual recognition. Particular care is taken to balance"
+
+msgid "précision"
+msgstr "accuracy"
+
+msgid "et"
+msgstr "and"
+
+msgid "rapidité"
+msgstr "speed"
+
+msgid "d'inférence."
+msgstr "of inference."
+
+msgid "temps réel"
+msgstr "real time"
+
+msgid "avec des performances stables. Le projet est en cours d'amélioration afin d'optimiser la précision et la fluidité du traitement."
+msgstr "with stable performance. The project is being improved to optimize both accuracy and processing smoothness."
+
+msgid "Le modèle est capable d'analyser un "
+msgstr "The model is capable of analyzing a "
+
+msgid "flux vidéo en direct"
+msgstr "live video stream"
+
+msgid "Newsletter IA"
+msgstr "AI Newsletter"
+
+msgid "L'évolution rapide du domaine de l'intelligence artificielle rend la veille technologique de plus en plus complexe. Les informations sont"
+msgstr "The rapid evolution of the field of artificial intelligence makes technology monitoring increasingly complex. Information is"
+
+msgid "nombreuses"
+msgstr "abundant"
+
+msgid "dispersées"
+msgstr "scattered"
+
+msgid " et souvent"
+msgstr " and often"
+
+msgid "redondantes"
+msgstr "redundant"
+
+msgid "Ce projet vise à automatiser "
+msgstr "This project aims to automate "
+
+msgid "Automatiser la collecte d’informations liées à l’IA"
+msgstr "Automate the collection of AI-related information"
+
+msgid "Filtrer les contenus à faible valeur ajoutée"
+msgstr "Filter low-value content"
+
+msgid "Synthétiser l’information de manière claire et concise"
+msgstr "Summarize information clearly and concisely"
+
+msgid "Proposer une newsletter adaptée aux profils techniques et non techniques"
+msgstr "Offer a newsletter suitable for both technical and non-technical audiences"
+
+msgid "L'IA analysera automatiquement différentes sources d'information "
+msgstr "AI will automatically analyze various information sources "
+
+msgid "(articles, blogs, publications techniques, actualités spécialisées)"
+msgstr "(articles, blogs, technical publications, specialized news)"
+
+msgid " afin d'en extraire les éléments les plus pertinents."
+msgstr " to extract the most relevant elements."
+
+msgid "Les contenus seront ensuite "
+msgstr "The content will then be "
+
+msgid "classés"
+msgstr "classified"
+
+msgid "résumés"
+msgstr "summarized"
+
+msgid "et "
+msgstr "and "
+
+msgid "structurés"
+msgstr "structured"
+
+msgid "pour constituer une newsletter cohérente et facilement lisible."
+msgstr "to form a coherent and easily readable newsletter."
+
+msgid "Architecture envisagée"
+msgstr "Planned Architecture"
+
+msgid "Collecte automatisée de sources (scraping / APIs)"
+msgstr "Automated collection of sources (scraping / APIs)"
+
+msgid "Traitement du langage naturel (NLP)"
+msgstr "Natural Language Processing (NLP)"
+
+msgid "Filtrage et scoring des contenus"
+msgstr "Content filtering and scoring"
+
+msgid "Génération de résumés automatisés"
+msgstr "Automated summary generation"
+
+msgid "Diffusion via email ou interface web"
+msgstr "Distribution via email or web interface"
+
+msgid "Technologies envisagées"
+msgstr "Planned Technologies"
+
+msgid "Enjeux et difficultés"
+msgstr "Challenges and Issues"
+
+msgid "Site internet portfolio orienté IA & Data"
+msgstr "AI & Data-oriented portfolio website"
+
+msgid "MidAi est né du besoin de disposer d'un espace "
+msgstr "MidAi was born from the need for a "
+
+msgid "clair et structuré"
+msgstr "clear and structured"
+
+msgid "pour présenter mes projets, mes compétences et ma vision de l'intelligence artificielle et de la data."
+msgstr "space to showcase my projects, skills, and vision of artificial intelligence and data."
+
+msgid "Ce site ne se limite pas à un simple portfolio, mais constitue une "
+msgstr "This site goes beyond a simple portfolio and serves as a "
+
+msgid "base évolutive"
+msgstr "scalable foundation"
+
+msgid "permettant de démontrer concrètement des"
+msgstr "that allows to concretely demonstrate"
+
+msgid "solutions techniques"
+msgstr "technical solutions"
+
+msgid "et des projets IA."
+msgstr "and AI projects."
+
+msgid "Présenter mes projets IA et Data de manière structurée"
+msgstr "Showcase my AI and Data projects in a structured way"
+
+msgid "Mettre en avant mes compétences techniques et méthodologiques"
+msgstr "Highlight my technical and methodological skills"
+
+msgid "Servir de support professionnel pour des missions freelance ou des opportunités"
+msgstr "Serve as a professional reference for freelance missions or opportunities"
+
+msgid "Proposer à terme des démonstrations IA interactives"
+msgstr "Ultimately provide interactive AI demonstrations"
+
+msgid "Approche"
+msgstr "Approach"
+
+msgid "Le site est conçu avec une approche orientée "
+msgstr "The site is designed with a focus on "
+
+msgid "qualité"
+msgstr "quality"
+
+msgid "lisibilité"
+msgstr "readability"
+
+msgid "compréhension"
+msgstr "understanding"
+
+msgid "des solutions proposées. Chaque projet est documenté afin d'expliquer non seulement le résultat, mais également la réflexion technique sous-jacente."
+msgstr "of the proposed solutions. Each project is documented to explain not only the outcome but also the underlying technical reasoning."
+
+msgid "L'accent est mis sur la compréhension des modèles, leurs performances, leurs limites et leur intégration dans des"
+msgstr "Emphasis is placed on understanding the models, their performance, limitations, and integration into"
+
+msgid "environnements réels"
+msgstr "real-world environments"
+
+msgid "Architecture du site"
+msgstr "Site Architecture"
+
+msgid "Backend Django pour la robustesse et l'évolutivité"
+msgstr "Django backend for robustness and scalability"
+
+msgid "Frontend simple et lisible (HTML / CSS / JS)"
+msgstr "Simple and readable frontend (HTML / CSS / JS)"
+
+msgid "Gestion multilingue (FR / EN)"
+msgstr "Multilingual support (FR / EN)"
+
+msgid "Structure modulaire facilitant l'ajout de projets"
+msgstr "Modular structure enabling easy addition of projects"
+
+msgid "Perspectives d'évolution"
+msgstr "Future Perspectives"
+
+msgid "Intégration de démonstrations IA en temps réel"
+msgstr "Integration of real-time AI demonstrations"
+
+msgid "Ajout de projets expérimentaux et de prototypes"
+msgstr "Addition of experimental projects and prototypes"
+
+msgid "Publication de contenus pédagogiques IA / Data"
+msgstr "Publishing educational AI / Data content"
+
+msgid "Évolution vers une plateforme plus interactive"
+msgstr "Evolution towards a more interactive platform"
+
+msgid "Limiter le bruit informationnel"
+msgstr "Limit informational noise"
+
+msgid "Garantir la qualité et la pertinence des contenus"
+msgstr "Ensure quality and relevance of content"
+
+msgid "Adapter le niveau de technicité selon le public cible"
+msgstr "Adapt the level of technicality to the target audience"
+
+msgid "Personnalisation des newsletters par utilisateur"
+msgstr "Personalization of newsletters per user"
+
+msgid "Ajout de recommandations intelligentes"
+msgstr "Adding intelligent recommendations"
+
+msgid "Intégration d’une plateforme web dédiée"
+msgstr "Integration of a dedicated web platform"
+
+msgid "la collecte et la synthèse"
+msgstr "the collection and synthesis"
+
+msgid "d'informations pertinentes afin de proposer une veille claire, structurée et à forte valeur ajoutée."
+msgstr "of relevant information to provide clear, structured, and high-value monitoring."
+
+
+msgid "Analyser un flux vidéo en temps réel via webcam"
+msgstr "Analyze a real-time video stream via webcam"
+
+msgid "Optimiser les performances pour des environnements contraints"
+msgstr "Optimize performance for constrained environments"
+
+msgid "Maîtriser l’ensemble du pipeline : données, modèle et inférence"
+msgstr "Master the entire pipeline: data, model, and inference"
+
+msgid "Fonctionnement global"
+msgstr "Overall operation"
+
+msgid ""
+"Le système repose sur la capture continue d'un flux vidéo. Chaque image est "
+"prétraitée avant d'être analysée par le modèle de vision artificielle, qui "
+"effectue une reconnaissance en temps réel."
+msgstr ""
+"The system relies on continuous video stream capture. Each frame is "
+"preprocessed before being analyzed by the computer vision model, which "
+"performs real-time recognition."
+
+msgid ""
+"Le pipeline se compose de plusieurs étapes : capture vidéo, prétraitement des "
+"images, inférence du modèle et affichage des résultats."
+msgstr ""
+"The pipeline consists of several stages: video capture, image preprocessing, "
+"model inference, and result visualization."
+
+msgid "Architecture du modèle"
+msgstr "Model architecture"
+
+msgid ""
+"Le projet repose sur une architecture entièrement personnalisée, conçue pour "
+"s'adapter au cas d'usage spécifique de la reconnaissance visuelle en temps "
+"réel. Un soin particulier est apporté à l'équilibre entre précision et "
+"rapidité d'inférence."
+msgstr ""
+"The project is based on a fully custom architecture, designed to adapt to "
+"the specific use case of real-time visual recognition. Particular attention "
+"is given to balancing inference accuracy and speed."
+
+msgid "Technologies utilisées"
+msgstr "Technologies used"
+
+msgid "Difficultés rencontrées"
+msgstr "Challenges encountered"
+
+msgid "Gestion des performances en temps réel"
+msgstr "Real-time performance management"
+
+msgid "Compromis entre précision et vitesse d'inférence"
+msgstr "Trade-off between accuracy and inference speed"
+
+msgid "Optimisation pour des ressources matérielles limitées"
+msgstr "Optimization for limited hardware resources"
+
+msgid "Résultats et état actuel"
+msgstr "Results and current state"
+
+msgid ""
+"Le modèle est capable d'analyser un flux vidéo en direct avec des "
+"performances stables. Le projet est en cours d'amélioration afin d'optimiser "
+"la précision et la fluidité du traitement."
+msgstr ""
+"The model is capable of analyzing a live video stream with stable "
+"performance. The project is currently being improved to optimize accuracy "
+"and processing smoothness."
+
+msgid "Perspectives d’évolution"
+msgstr "Future perspectives"
+
+msgid "Optimisation avancée du modèle"
+msgstr "Advanced model optimization"
+
+msgid "Ajout d’une démonstration interactive"
+msgstr "Addition of an interactive demonstration"
+
+msgid "Déploiement sous forme d’API ou d’application web"
+msgstr "Deployment as an API or web application"
+
+#: .\app\templates\projects\vision.html:29
+msgid "Technologies"
+msgstr "Technologies"
+
+#: .\app\templates\projects\vision.html:40
+msgid "Projet en cours"
+msgstr "Project in progress"
+
+#: .\app\templates\projects\vision.html:40
+msgid "— Démo disponible prochainement"
+msgstr "— Demo available soon"
+
+#: .\app\views.py:42
+msgid "Veuillez attendre quelques secondes avant un nouvel envoi."
+msgstr "Please wait a few seconds before sending again."
+
+#: .\app\views.py:57
+msgid "Une erreur est survenue lors de l'envoi du message."
+msgstr "An error occurred while sending the message."
+
+#: .\app\views.py:79
+msgid "Le message est trop court (minimum 10 caractères)."
+msgstr "The message is too short (minimum 10 characters)."
+
+#: .\app\views.py:92
+msgid "Adresse email invalide."
+msgstr "Invalid email address."
+
+#: .\app\views.py:152
+msgid ""
+"Une erreur est survenue lors de l'envoi du message. Veuillez réessayer plus "
+"tard."
+msgstr "An error occurred while sending the message. Please try again later."
+
+#: .\app\templates\projects.html:6
+msgid "Projets"
+msgstr "Projects"
+
+#: .\app\templates\projects.html:11
+msgid "Une sélection de projets personnels mêlant intelligence artificielle, data et développement web, avec une approche orientée qualité et impact."
+msgstr "A selection of personal projects combining artificial intelligence, data, and web development, with a focus on quality and impact."
+
+#: .\app\templates\projects.html:18
+msgid "Vision IA en temps réel"
+msgstr "Real-Time AI Vision"
+
+#: .\app\templates\projects.html:21
+msgid "Développement d'une intelligence artificielle de reconnaissance visuelle capable d'analyser un flux vidéo en temps réel via webcam."
+msgstr "Development of a visual recognition AI capable of analyzing a video stream in real-time through a webcam."
+
+#: .\app\templates\projects.html:25
+msgid "Le projet repose sur une architecture entièrement personnalisée, avec un fort accent mis sur la compréhension du modèle, ses performances et sa capacité à fonctionner sur des environnements contraints."
+msgstr "The project is based on a fully custom architecture, with a strong focus on model understanding, performance, and the ability to run on constrained environments."
+
+#: .\app\templates\projects.html:29
+msgid "A venir prochainement"
+msgstr "Coming Soon"
+
+#: .\app\templates\projects.html:36
+msgid "Newsletter IA intelligente"
+msgstr "Smart AI Newsletter"
+
+#: .\app\templates\projects.html:39
+msgid "Conception d'une intelligence artificielle capable d'agréger, filtrer et synthétiser automatiquement des informations liées à l'intelligence artificielle et à la data."
+msgstr "Design of an AI capable of automatically aggregating, filtering, and summarizing information related to artificial intelligence and data."
+
+#: .\app\templates\projects.html:43
+msgid "L'objectif est de proposer une newsletter claire, pertinente et à forte valeur ajoutée, adaptée aux profils techniques comme non techniques."
+msgstr "The goal is to offer a clear, relevant, and high-value newsletter, suitable for both technical and non-technical audiences."
+
+#: .\app\templates\projects.html:51
+msgid "NLP"
+msgstr "NLP"
+
+#: .\app\templates\projects.html:52
+msgid "Automation"
+msgstr "Automation"
+
+#: .\app\templates\projects.html:61
+msgid "Conception et développement de ce site vitrine afin de présenter mes projets, mes compétences et mes services en intelligence artificielle et data."
+msgstr "Design and development of this showcase website to present my projects, skills, and AI & data services."
+
+#: .\app\templates\projects.html:65
+msgid "Le site est pensé comme une base évolutive permettant l'intégration future de démonstrations IA interactives."
+msgstr "The website is designed as an evolving base allowing future integration of interactive AI demonstrations."
+
+#: .\app\templates\projects.html:69
+msgid "En cours"
+msgstr "In Progress"
+
+#: .\app\templates\projects.html:73
+msgid "Django"
+msgstr "Django"
+
+#: .\app\templates\projects.html:74
+msgid "HTML / CSS"
+msgstr "HTML / CSS"
+
+#: .\app\templates\projects.html:75
+msgid "Web Design"
+msgstr "Web Design"
+
+#: .\env\Lib\site-packages\django\contrib\messages\apps.py:7
+msgid "Messages"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\env\Lib\site-packages\django\core\paginator.py:30
+msgid "…"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\paginator.py:51
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\paginator.py:53
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\paginator.py:58
+msgid "That page contains no results"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:93
+#: .\env\Lib\site-packages\django\forms\fields.py:678
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:151
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:162
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\env\Lib\site-packages\django\core\validators.py:265
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:272
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:281
+#: .\env\Lib\site-packages\django\core\validators.py:291
+#: .\env\Lib\site-packages\django\core\validators.py:314
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:299
+#: .\env\Lib\site-packages\django\core\validators.py:315
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:309
+#: .\env\Lib\site-packages\django\core\validators.py:313
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:343
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:349
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:382
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:391
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:401
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:416
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:435
+#: .\env\Lib\site-packages\django\forms\fields.py:292
+#: .\env\Lib\site-packages\django\forms\fields.py:327
+msgid "Enter a number."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:437
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:442
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:447
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:509
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\core\validators.py:562
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\base.py:1210
+#: .\env\Lib\site-packages\django\forms\models.py:768
+msgid "and"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\base.py:1212
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:100
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:101
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:102
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:103
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:107
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:126
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:958
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:959
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:961
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1002
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1096
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1145
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1147
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1290
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1150
+msgid "Date (without time)"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1288
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1292
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1296
+msgid "Date (with time)"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1444
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1446
+msgid "Decimal number"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1585
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1588
+msgid "Duration"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1638
+msgid "Email address"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1661
+msgid "File path"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1727
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1729
+msgid "Floating point number"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1767
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1769
+msgid "Integer"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1852
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1867
+msgid "Small integer"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1875
+msgid "IPv4 address"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1906
+msgid "IP address"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1986
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1987
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:1989
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:2043
+msgid "Positive big integer"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:2056
+msgid "Positive integer"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:2069
+msgid "Positive small integer"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:2083
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:2115
+msgid "Text"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:2181
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:2183
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:2186
+msgid "Time"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:2312
+msgid "URL"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:2334
+msgid "Raw binary data"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:2399
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\__init__.py:2401
+msgid "Universally unique identifier"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\files.py:226
+msgid "File"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\files.py:375
+msgid "Image"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\json.py:18
+msgid "A JSON object"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\json.py:20
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\related.py:790
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\related.py:792
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\related.py:1045
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\related.py:1099
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\related.py:1100
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\db\models\fields\related.py:1142
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\env\Lib\site-packages\django\forms\boundfield.py:150
+msgid ":?.!"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:54
+msgid "This field is required."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:247
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:402
+#: .\env\Lib\site-packages\django\forms\fields.py:1146
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:426
+#: .\env\Lib\site-packages\django\forms\fields.py:1147
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:454
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:488
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:489
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:552
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:553
+msgid "No file was submitted."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:554
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:556
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:559
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:620
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:782
+#: .\env\Lib\site-packages\django\forms\fields.py:872
+#: .\env\Lib\site-packages\django\forms\models.py:1309
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:873
+#: .\env\Lib\site-packages\django\forms\fields.py:988
+#: .\env\Lib\site-packages\django\forms\models.py:1308
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:989
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:1205
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\fields.py:1235
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\env\Lib\site-packages\django\forms\forms.py:76
+msgid ":"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\forms.py:203
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\formsets.py:370
+#, python-format
+msgid "Please submit at most %d form."
+msgid_plural "Please submit at most %d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\forms\formsets.py:377
+#, python-format
+msgid "Please submit at least %d form."
+msgid_plural "Please submit at least %d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\forms\formsets.py:405
+#: .\env\Lib\site-packages\django\forms\formsets.py:412
+msgid "Order"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\formsets.py:417
+msgid "Delete"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\models.py:763
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\models.py:767
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\models.py:773
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\models.py:782
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\models.py:1109
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\models.py:1193
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\models.py:1311
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\utils.py:172
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\widgets.py:427
+msgid "Clear"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\widgets.py:428
+msgid "Currently"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\widgets.py:429
+msgid "Change"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\widgets.py:738
+msgid "Unknown"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\widgets.py:739
+msgid "Yes"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\forms\widgets.py:740
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: .\env\Lib\site-packages\django\template\defaultfilters.py:817
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\template\defaultfilters.py:846
+#: .\env\Lib\site-packages\django\template\defaultfilters.py:863
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\template\defaultfilters.py:865
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\template\defaultfilters.py:867
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\template\defaultfilters.py:869
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\template\defaultfilters.py:871
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\template\defaultfilters.py:873
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dateformat.py:66
+msgid "p.m."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dateformat.py:67
+msgid "a.m."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dateformat.py:72
+msgid "PM"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dateformat.py:73
+msgid "AM"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dateformat.py:146
+msgid "midnight"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dateformat.py:148
+msgid "noon"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:6
+msgid "Monday"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:6
+msgid "Tuesday"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:6
+msgid "Wednesday"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:6
+msgid "Thursday"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:6
+msgid "Friday"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:7
+msgid "Saturday"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:7
+msgid "Sunday"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:11
+msgid "Sat"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:11
+msgid "Sun"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:14
+msgid "January"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:14
+msgid "February"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:14
+msgid "March"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:14
+msgid "April"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:14
+msgid "May"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:14
+msgid "June"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:15
+msgid "July"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:15
+msgid "August"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:15
+msgid "September"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:15
+msgid "October"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:15
+msgid "November"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:16
+msgid "December"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:19
+msgid "jan"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:19
+msgid "feb"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:19
+msgid "mar"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:19
+msgid "apr"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:19
+msgid "may"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:19
+msgid "jun"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:20
+msgid "jul"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:20
+msgid "aug"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:20
+msgid "sep"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:20
+msgid "oct"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:20
+msgid "nov"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:20
+msgid "dec"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:23
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:24
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:25
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:26
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:27
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:28
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:29
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:30
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:31
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:32
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:33
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:34
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:37
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:38
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:39
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:40
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:41
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:42
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:43
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:44
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:45
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:46
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:47
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\dates.py:48
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\text.py:131
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\text.py:309
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\env\Lib\site-packages\django\utils\text.py:328
+#: .\env\Lib\site-packages\django\utils\timesince.py:94
+msgid ", "
+msgstr ""
+
+#: .\env\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\utils\timesince.py:14
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\env\Lib\site-packages\django\views\csrf.py:110
+msgid "Forbidden"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\csrf.py:111
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\csrf.py:115
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\csrf.py:120
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\csrf.py:124
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\csrf.py:132
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\csrf.py:137
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\csrf.py:142
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\generic\dates.py:41
+msgid "No year specified"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\generic\dates.py:61
+#: .\env\Lib\site-packages\django\views\generic\dates.py:111
+#: .\env\Lib\site-packages\django\views\generic\dates.py:208
+msgid "Date out of range"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\generic\dates.py:90
+msgid "No month specified"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\generic\dates.py:142
+msgid "No day specified"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\generic\dates.py:188
+msgid "No week specified"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\generic\dates.py:338
+#: .\env\Lib\site-packages\django\views\generic\dates.py:367
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\generic\dates.py:594
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\generic\dates.py:628
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\generic\detail.py:54
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\generic\list.py:67
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\generic\list.py:72
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\generic\list.py:154
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\static.py:40
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\static.py:42
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\static.py:80
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:221
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:207
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:222
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:230
+msgid "Django Documentation"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:231
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:239
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:240
+msgid "Get started with Django"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:248
+msgid "Django Community"
+msgstr ""
+
+#: .\env\Lib\site-packages\django\views\templates\default_urlconf.html:249
+msgid "Connect, get help, or contribute"
+msgstr ""

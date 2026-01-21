@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+
+<section class="page-header fade-up">
+    <h1>{% trans "Me contacter" %}</h1>
+    <p class="delay-1">
+        {% trans "Une idée de projet, une mission freelance ou simplement une question ?" %}
+    </p>
+</section>
+
+<section class="contact-layout fade-up delay-2">
+
+    <div class="contact-card">
+        <h2>{% trans "Discutons de votre projet" %}</h2>
+        <p>
+            {% trans "Je suis ouvert aux missions en" %} <strong>{% trans "IA, Data, automatisation" %}</strong> 
+            {% trans "et à la création de solutions sur mesure." %}
+        </p>
+
+        <div class="contact-project-cta">
+            <a href="https://www.linkedin.com/in/michaël-lapeyrère-465a93203" target="_blank" rel="noopener noreferrer" class="btn">
+                {% trans "Me contacter sur LinkedIn" %}
+            </a>
+            <a href="https://www.malt.fr/profile/michaellapeyrere" target="_blank" rel="noopener noreferrer" class="btn">
+                {% trans "Voir mon profil Malt" %}
+            </a>
+            <a href="https://github.com/Michael-Lapeyrere" target="_blank" rel="noopener noreferrer" class="btn">
+                {% trans "Voir mon profil Github" %}
+            </a>
+        </div>
+    </div>
+
+    <div class="contact-card">
+        <h2>{% trans "Envoyez-moi un message" %}</h2>
+
+        {% if success %}
+            <div class="form-success fade-up">
+                {% trans "✅ Message envoyé avec succès." %}<br>
+                {% trans "Je vous répondrai rapidement." %}
+            </div>
+        {% endif %}
+
+        {% if form.errors %}
+            <div class="form-error-gen fade-up">
+                {% trans "❌ Une erreur est survenue. Envoi non effectué." %}
+            </div>
+        {% endif %}
+
+        <form method="post" class="contact-form">
+            {{ form.website }}
+            {% csrf_token %}
+
+            <div class="form-group">
+                {{ form.name.label_tag }}
+                {{ form.name }}
+                {% if form.name.errors %}
+                    <div class="form-error">{{ form.name.errors }}</div>
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.email.label_tag }}
+                {{ form.email }}
+                {% if form.email.errors %}
+                    <div class="form-error">{{ form.email.errors }}</div>
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.message.label_tag }}
+                {{ form.message }}
+                {% if form.message.errors %}
+                    <div class="form-error">{{ form.message.errors }}</div>
+                {% endif %}
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn">
+                    {% trans "Envoyer le message" %}
+                </button>
+
+                <button type="reset" class="btn btn-annuler">
+                    {% trans "Annuler" %}
+                </button>
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+{% endblock %}

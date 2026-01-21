@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<section class="project-hero">
+    <div class="project-hero-text">
+        {% block project_title %}{% endblock %}
+        {% block project_subtitle %}{% endblock %}
+        {% block project_tags %}{% endblock %}
+    </div>
+</section>
+
+<section class="project-content">
+    {% block project_content %}{% endblock %}
+</section>
+
+<section class="project-status">
+    {% block project_status %}{% endblock %}
+</section>
+
+<section class="project-cta">
+    <a href="{% url 'projects' %}" class="btn-secondary">
+        {% trans "← Retour aux projets" %}
+    </a>
+</section>
+{% endblock %}
