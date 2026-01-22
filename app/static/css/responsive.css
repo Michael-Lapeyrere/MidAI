@@ -1,0 +1,188 @@
+/* ================================================= */
+/* =============== BASE RESPONSIVE ================= */
+/* ================================================= */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ================================================= */
+/* ================= TABLETTE ====================== */
+/* ================================================= */
+@media (max-width: 900px) {
+
+    /* ===== Header / Nav ===== */
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    /* ===== Hero ===== */
+    .hero {
+        padding: 100px 6% 70px;
+    }
+
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+
+    /* ===== Services ===== */
+    .service {
+        grid-template-columns: 1fr;
+        padding: 70px 20px;
+        gap: 40px;
+        text-align: left;
+    }
+
+    .service .image {
+        height: auto;
+    }
+
+    .service img {
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+    }
+
+    .service ul {
+        margin-left: 0;
+        padding-left: 18px;
+    }
+
+    /* ===== Projects ===== */
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-hero h1 {
+        font-size: 2.3rem;
+    }
+
+    .project-content {
+        padding: 70px 8%;
+    }
+
+    /* ===== Contact ===== */
+    .contact-layout {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    /* ===== About ===== */
+    .about-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .about-item {
+        grid-template-columns: 1fr;
+    }
+
+    .about-meta {
+        text-align: left;
+    }
+
+    .about-meta::after {
+        display: none;
+    }
+}
+
+/* ================================================= */
+/* ================== MOBILE ======================= */
+/* ================================================= */
+@media (max-width: 600px) {
+
+    /* ===== Header ===== */
+    .logo {
+        font-size: 1.6rem;
+    }
+
+    .nav a {
+        font-size: 0.95rem;
+        margin: 6px 0;
+    }
+
+    /* ===== Hero ===== */
+    .hero {
+        padding: 90px 16px 60px;
+    }
+
+    .hero h1 {
+        font-size: 2.1rem;
+    }
+
+    .hero p {
+        font-size: 0.95rem;
+    }
+
+    /* ===== Services ===== */
+    .service {
+        gap: 30px;
+    }
+
+    .service .text h2 {
+        font-size: 1.5rem;
+    }
+
+    .service .image {
+        box-shadow: none;
+    }
+
+    /* ===== Projects ===== */
+    .project-hero {
+        padding: 90px 8% 60px;
+    }
+
+    .project-hero h1 {
+        font-size: 2rem;
+    }
+
+    .project-section {
+        margin-bottom: 50px;
+    }
+
+    /* ===== Footer ===== */
+    .footer {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .footer a {
+        margin: 0 8px;
+    }
+}
+
+/* ================================================= */
+/* ============== TRÈS PETITS MOBILES ============== */
+/* ================================================= */
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 1.9rem;
+    }
+
+    .service .text h2 {
+        font-size: 1.4rem;
+    }
+}
+
+/* ================================================= */
+/* ============== ACCESSIBILITÉ ==================== */
+/* ================================================= */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
