@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 /* ================================================= */
 /* =============== BASE RESPONSIVE ================= */
 /* ================================================= */
@@ -46,10 +52,10 @@ img {
 
     /* ===== Services ===== */
     .service {
-        grid-template-columns: 1fr;
-        padding: 70px 20px;
+        display: grid;
+        flex-direction: column;
         gap: 40px;
-        text-align: left;
+        padding: 70px 20px;
     }
 
     .service .image {
@@ -65,10 +71,26 @@ img {
         display: block;
     }
 
+    .service img.image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+}
+
     .service img {
         width: 100%;
         height: auto;
         border-radius: 16px;
+    }
+
+    .service.reverse {
+        flex-direction: column;
+    }
+
+    .service.reverse .text,
+    .service.reverse .image {
+        order: unset;
     }
 
     .service ul {
