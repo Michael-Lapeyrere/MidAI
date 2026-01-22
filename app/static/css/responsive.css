@@ -15,15 +15,24 @@ img {
     /* ===== Header / Nav ===== */
     .header {
         flex-direction: column;
-        align-items: center;
-        padding: 1rem;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .header > a {
+        align-self: center;
     }
 
     .nav {
-        display: flex;
-        flex-direction: column;
-        gap: 0.8rem;
-        margin-top: 1rem;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .lang-switch {
+        align-self: center;
+        margin-top: 6px;
     }
 
     /* ===== Hero ===== */
@@ -44,7 +53,16 @@ img {
     }
 
     .service .image {
+        position: static;
         height: auto;
+        overflow: visible;
+    }
+
+    .service .image img {
+        position: static;
+        width: 100%;
+        height: auto;
+        display: block;
     }
 
     .service img {
@@ -107,6 +125,12 @@ img {
         font-size: 1.6rem;
     }
 
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
     .nav a {
         font-size: 0.95rem;
         margin: 6px 0;
@@ -151,6 +175,11 @@ img {
         margin-bottom: 50px;
     }
 
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+
     /* ===== Footer ===== */
     .footer {
         flex-direction: column;
@@ -167,6 +196,10 @@ img {
 /* ============== TRÈS PETITS MOBILES ============== */
 /* ================================================= */
 @media (max-width: 480px) {
+
+    h1 {
+        line-height: 1.15;
+    }
 
     .hero h1 {
         font-size: 1.9rem;
