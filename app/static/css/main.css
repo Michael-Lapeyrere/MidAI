@@ -65,11 +65,45 @@ main {
     color: #4cc9f0;
 }
 
+.nav {
+    display: flex;
+    align-items: center;
+}
+
 .nav a {
     margin: 0 15px;
     font-weight: 500;
     position: relative;
     opacity: 0.9;
+}
+
+.nav a.active {
+    color: #6aa8ff; /* optionnel */
+}
+
+.nav a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(
+        90deg,
+        #8ecbff 0%,
+        #4f8cff 50%,
+        #2b6fe8 100%
+    );
+    border-radius: 999px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: underline 0.4s ease forwards;
+}
+
+@keyframes underline {
+    to {
+        transform: scaleX(1);
+    }
 }
 
 .nav a:hover {
@@ -157,10 +191,12 @@ img {
     gap: 60px;
     width: 100%;
     padding: 120px clamp(20px, 8vw, 140px);
+    grid-template-areas: "text image";
 } 
 
 .service .text {
     max-width: 520px;
+    grid-area: text;
 }
 
 .service .text h2{ 
@@ -203,6 +239,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    grid-area: image;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
 }
 
 .service .image:hover {
@@ -217,8 +259,15 @@ img {
     box-shadow: 0 0 40px rgba(76,201,240,0.15);
     display: flex; 
     justify-content: center;
+    align-items: center;
     position: relative;
     overflow: hidden;
+    grid-area: image;
+}
+
+.service .image img {
+    max-width: 100%;
+    height: 100%;
 }
 
 .service .image::after {

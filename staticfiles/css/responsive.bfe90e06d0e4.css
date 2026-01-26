@@ -144,8 +144,8 @@ img {
     .service.reverse {
         grid-template-columns: 1fr;
         grid-template-areas:
-            "text"
-            "image";
+            "image"
+            "text";
     }
 
     /* ===== Projects ===== */

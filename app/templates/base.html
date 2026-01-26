@@ -19,10 +19,10 @@
         <div class="logo">Mid<span>Ai</span></div>
     </a>
     <nav class="nav">
-        <a href="{% url 'home' %}">{% trans "Accueil" %}</a>
-        <a href="{% url 'projects' %}">{% trans "Projets" %}</a>
-        <a href="{% url 'contact' %}">Contact</a>
-        <a href="{% url 'about' %}">{% trans "Qui suis-je ?" %}</a>
+        <a href="{% url 'home' %}" class="{% if request.resolver_match.url_name == 'home' %}active{% endif %}">{% trans "Accueil" %}</a>
+        <a href="{% url 'projects' %}" class="{% if request.resolver_match.url_name == 'projects' %}active{% endif %}">{% trans "Projets" %}</a>
+        <a href="{% url 'contact' %}" class="{% if request.resolver_match.url_name == 'contact' %}active{% endif %}">Contact</a>
+        <a href="{% url 'about' %}" class="{% if request.resolver_match.url_name == 'about' %}active{% endif %}">{% trans "À Propos" %}</a>
     </nav>
     <form action="{% url 'set_language' %}" method="post">
         {% csrf_token %}

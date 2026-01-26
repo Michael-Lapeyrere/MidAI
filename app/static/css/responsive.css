@@ -1,16 +1,17 @@
+/* ================================================= */
+/* =============== BASE RESPONSIVE ================= */
+/* ================================================= */
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
-/* ================================================= */
-/* =============== BASE RESPONSIVE ================= */
-/* ================================================= */
-
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 /* ================================================= */
@@ -18,32 +19,21 @@ img {
 /* ================================================= */
 @media (max-width: 900px) {
 
-    /* ===== Header / Nav ===== */
+    /* ===== Header ===== */
     .header {
         flex-direction: column;
-        align-items: stretch;
         gap: 12px;
-    }
-
-    .header > a {
-        align-self: center;
     }
 
     .nav {
-        flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 12px;
-    }
-
-    .lang-switch {
-        align-self: center;
-        margin-top: 6px;
+        gap: 14px;
     }
 
     /* ===== Hero ===== */
     .hero {
-        padding: 100px 6% 70px;
+        padding: 90px 6% 60px;
     }
 
     .hero h1 {
@@ -52,84 +42,28 @@ img {
 
     /* ===== Services ===== */
     .service {
-        display: grid;
-        flex-direction: column;
-        gap: 40px;
-        padding: 70px 20px;
-    }
-
-    .service .image {
-        position: static;
-        height: auto;
-        overflow: visible;
-    }
-
-    .service .image img {
-        position: static;
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    .service img.image {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 16px;
-}
-
-    .service img {
-        width: 100%;
-        height: auto;
-        border-radius: 16px;
+        grid-template-columns: 1fr;
+        gap: 50px;
+        padding: 70px 6%;
     }
 
     .service.reverse {
-        flex-direction: column;
-    }
-
-    .service.reverse .text,
-    .service.reverse .image {
-        order: unset;
-    }
-
-    .service ul {
-        margin-left: 0;
-        padding-left: 18px;
-    }
-
-    /* ===== Projects ===== */
-    .projects-grid {
         grid-template-columns: 1fr;
     }
 
-    .project-hero h1 {
-        font-size: 2.3rem;
-    }
-
-    .project-content {
-        padding: 70px 8%;
-    }
-
-    /* ===== Contact ===== */
-    .contact-layout {
-        grid-template-columns: 1fr;
-        gap: 40px;
+    .service .image {
+        height: auto;
+        border-radius: 18px;
     }
 
     /* ===== About ===== */
     .about-header {
         flex-direction: column;
         text-align: center;
-        gap: 2rem;
     }
 
     .about-item {
         grid-template-columns: 1fr;
-    }
-
-    .about-meta {
-        text-align: left;
     }
 
     .about-meta::after {
@@ -143,28 +77,49 @@ img {
 @media (max-width: 600px) {
 
     /* ===== Header ===== */
-    .logo {
-        font-size: 1.6rem;
+
+    .header {
+        gap: 8px;
+        padding: 12px 16px;
     }
 
     .nav {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 2px;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 4px;
+        overflow-y: hidden;
+    }
+
+    .nav::-webkit-scrollbar {
+        display: none;
     }
 
     .nav a {
         font-size: 0.95rem;
-        margin: 6px 0;
+        flex-shrink: 0;
+    }
+
+    .lang-switch {
+        margin-top: 6px 16px;
+        align-self: center;
+        font-size: 0.85rem;
+    }
+
+    .logo {
+        font-size: 1.4rem;
     }
 
     /* ===== Hero ===== */
     .hero {
-        padding: 90px 16px 60px;
+        padding: 80px 18px 50px;
     }
 
     .hero h1 {
-        font-size: 2.1rem;
+        font-size: 2rem;
+        line-height: 1.2;
     }
 
     .hero p {
@@ -173,7 +128,8 @@ img {
 
     /* ===== Services ===== */
     .service {
-        gap: 30px;
+        gap: 40px;
+        padding: 60px 18px;
     }
 
     .service .text h2 {
@@ -184,23 +140,99 @@ img {
         box-shadow: none;
     }
 
+    .service,
+    .service.reverse {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "text"
+            "image";
+    }
+
     /* ===== Projects ===== */
+    .projects {
+        grid-template-columns: 1fr;
+        padding: 50px 18px;
+    }
+
     .project-hero {
-        padding: 90px 8% 60px;
+        padding: 80px 18px 50px;
     }
 
     .project-hero h1 {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
-    .project-section {
-        margin-bottom: 50px;
+    .project-content {
+        padding: 60px 18px;
     }
 
-    .projects {
+    /* ===== Contact ===== */
+    .contact-layout {
         grid-template-columns: 1fr;
+        padding: 40px 18px;
     }
 
+    /* ===== About ===== */
+    .about-photo {
+        width: 160px;
+        height: 160px;
+        aspect-ratio: 1 / 1;
+        flex-shrink: 0;
+    }
+
+    .about-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .about-header,
+    .about-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .about-header {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .about-content {
+        padding-top: 40px;
+        order: 1;
+    }
+    .about-content h3 {
+        margin-bottom: 4px;
+    }
+
+    .about-item {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .about-meta {
+        text-align: left;
+        order: 2;
+    }
+
+    .about-meta::after {
+        display: none;
+    }
+
+    .about-date {
+        font-size: 0.9rem;
+        margin-bottom: 6px;
+    }
+
+    .about-techno {
+        margin-bottom: 6px;
+    }
 
     /* ===== Footer ===== */
     .footer {
@@ -208,27 +240,32 @@ img {
         gap: 15px;
         text-align: center;
     }
-
-    .footer a {
-        margin: 0 8px;
-    }
 }
 
 /* ================================================= */
-/* ============== TRÈS PETITS MOBILES ============== */
+/* =========== SAMSUNG S22 / PETITS MOBILES ========= */
 /* ================================================= */
-@media (max-width: 480px) {
+@media (max-width: 390px) {
 
     h1 {
-        line-height: 1.15;
+        font-size: 1.8rem;
     }
 
-    .hero h1 {
-        font-size: 1.9rem;
-    }
-
-    .service .text h2 {
+    h2 {
         font-size: 1.4rem;
+    }
+
+    p, li {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 12px 22px;
+        font-size: 0.9rem;
+    }
+
+    .hero {
+        padding-top: 70px;
     }
 }
 

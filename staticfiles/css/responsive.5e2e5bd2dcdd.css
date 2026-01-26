@@ -90,7 +90,6 @@ img {
         overflow-x: auto;
         white-space: nowrap;
         padding-bottom: 4px;
-        overflow-y: hidden;
     }
 
     .nav::-webkit-scrollbar {
@@ -144,8 +143,8 @@ img {
     .service.reverse {
         grid-template-columns: 1fr;
         grid-template-areas:
-            "text"
-            "image";
+            "image"
+            "text";
     }
 
     /* ===== Projects ===== */

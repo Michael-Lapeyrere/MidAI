@@ -283,7 +283,7 @@ msgstr "This project was born from a desire to deeply understand how computer vi
 msgid "d'analyser un flux vidéo en temps réel"
 msgstr "of analyzing a real-time video stream"
 
-msgid "Qui suis-je ?"
+msgid "À Propos"
 msgstr "About me"
 
 msgid "Photo de profil"
