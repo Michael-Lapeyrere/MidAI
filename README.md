@@ -84,6 +84,7 @@ source env/bin/activate  # Linux / macOS
 env\Scripts\activate     # Windows
 pip install -r requirements.txt
 python manage.py runserver
+```
 
 ---
 
@@ -97,6 +98,7 @@ source env/bin/activate  # Linux / macOS
 env\Scripts\activate     # Windows
 pip install -r requirements.txt
 python manage.py runserver
+```
 
 ---
 
