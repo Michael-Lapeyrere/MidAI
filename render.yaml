@@ -1,12 +1,10 @@
 services:
   - type: web
-    name: midai
+    name: MidAI
     env: python
+    plan: free
     buildCommand: |
       pip install -r requirements.txt
-      # Collecte les statics pour prod, --noinput pour éviter les prompts
       python manage.py collectstatic --noinput
       python manage.py migrate
-    startCommand: |
-      # Gunicorn avec binding sur l'adresse par défaut de Render
-      gunicorn MidAI.wsgi:application --bind 0.0.0.0:$PORT
+    startCommand: gunicorn MidAI.wsgi:application --bind 0.0.0.0:$PORT
