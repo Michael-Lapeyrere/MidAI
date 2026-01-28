@@ -111,17 +111,3 @@ Ingénieur IA & Data
 
 Michaël Lapeyrère
 AI & Data Engineer
-
----
-
-## 🇫🇷 Note professionnelle
-
-Le projet est prêt pour portfolio, déploiement public et démonstrations clients.
-Le choix de versionner staticfiles/ est volontaire afin de simplifier le déploiement sur Render.
-
----
-
-## 🇬🇧 Professional note
-
-The project is ready for portfolio, public deployment, and customer demonstrations.
-The decision to version staticfiles/ is intentional in order to simplify deployment on Render.
