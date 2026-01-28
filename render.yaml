@@ -3,7 +3,9 @@ services:
     name: MidAI
     env: python
     plan: free
-    buildCommand: python manage.py migrate
-        #pip install -r requirements.txt
-        #python manage.py collectstatic --noinput
+    buildCommand: |
+      echo "Render lit bien le render.yaml !"
+      pip install -r requirements.txt
+      python manage.py migrate
+      python manage.py collectstatic --noinput
     startCommand: gunicorn MidAI.wsgi:application --bind 0.0.0.0:$PORT
