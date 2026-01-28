@@ -48,7 +48,8 @@ def contact(request):
                     request,
                     "contact.html",
                     {
-                        "form": form
+                        "form": form,
+                        "success": False
                     }
                 )
         
@@ -63,7 +64,8 @@ def contact(request):
                 request,
                 "contact.html",
                 {
-                    "form": form
+                    "form": form,
+                    "success": False
                 }
             )
 
@@ -85,7 +87,8 @@ def contact(request):
                     request,
                     "contact.html",
                     {
-                        "form": form
+                        "form": form,
+                        "success": False
                     }
                 )
 
@@ -98,7 +101,8 @@ def contact(request):
                     request,
                     "contact.html",
                     {
-                        "form": form
+                        "form": form,
+                        "success": False
                     }
                 )
 
@@ -158,11 +162,12 @@ def contact(request):
                     request,
                     "contact.html",
                     {
-                        "form": form
+                        "form": form,
+                        "success": False
                     }
                 )
 
     else:
         form = ContactForm()
 
-    return render(request, "contact.html", {"form": form})
+    return render(request, "contact.html", {"form": form, "success": False})
