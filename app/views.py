@@ -33,6 +33,9 @@ def about(request):
 logger = logging.getLogger("contact")
 
 def contact(request):
+
+    success = False
+
     # 🕒 Rate limit simple par session (30 secondes)
     last_sent = request.session.get("last_contact_time")
     now = time.time()
@@ -48,7 +51,8 @@ def contact(request):
                     request,
                     "contact.html",
                     {
-                        "form": form
+                        "form": form,
+                        "success": success
                     }
                 )
         
@@ -63,7 +67,8 @@ def contact(request):
                 request,
                 "contact.html",
                 {
-                    "form": form
+                    "form": form,
+                    "success": success
                 }
             )
 
@@ -85,7 +90,8 @@ def contact(request):
                     request,
                     "contact.html",
                     {
-                        "form": form
+                        "form": form,
+                        "success": success
                     }
                 )
 
@@ -98,7 +104,8 @@ def contact(request):
                     request,
                     "contact.html",
                     {
-                        "form": form
+                        "form": form,
+                        "success": success
                     }
                 )
 
@@ -139,12 +146,14 @@ def contact(request):
                 # Met à jour le rate limit
                 request.session["last_contact_time"] = now
 
+                success = True
+
                 return render(
                     request,
                     "contact.html",
                     {
                         "form": ContactForm(),
-                        "success": True
+                        "success": success
                     }
                 )
 
@@ -158,7 +167,8 @@ def contact(request):
                     request,
                     "contact.html",
                     {
-                        "form": form
+                        "form": form,
+                        "success": success
                     }
                 )
 
